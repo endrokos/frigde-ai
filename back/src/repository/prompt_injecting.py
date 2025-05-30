@@ -1,5 +1,5 @@
 from config import PROMPT
-from src.domain.dish_request import DishRequest
+from back.src.domain.dish_request import DishRequest
 
 
 def prompt_injecting(dish_request: DishRequest):

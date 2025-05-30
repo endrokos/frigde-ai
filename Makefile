@@ -1,6 +1,6 @@
 PORT=8000
 APP=endpoints.handlers:app
-PYTHONPATH=src
+PYTHONPATH=back/src
 
 run:
 	PYTHONPATH=$(PYTHONPATH) uvicorn $(APP) --reload --port $(PORT)

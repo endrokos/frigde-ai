@@ -1,8 +1,8 @@
 from typing import Dict
 
-from src.domain.dish_request import DishRequest
-from src.repository.gpt_text_model_client import GptTextModelClient
-from src.repository.prompt_injecting import prompt_injecting
+from back.src.domain.dish_request import DishRequest
+from back.src.repository.gpt_text_model_client import GptTextModelClient
+from back.src.repository.prompt_injecting import prompt_injecting
 
 
 def generate_shopping_list_use_case(dish_request: DishRequest, text_model_client: GptTextModelClient) -> Dict:
